@@ -12,7 +12,8 @@ It's really simple...  The first player will be the X, the second player will be
 * Write your solution in one of the following programming languages: C#, Java, Python, Ruby or JavaScript  
 * Do not do a front end / UI for the application, it should be console based
 * Take your time and write the best code possible  
-* Include a readme.md on how to execute your solution  
+* Include a readme.md on how to execute your solution and any assumptions you made  
+* If you are unsure of anything, feel free to ask additional clarifying questions - we're here to help!  
 
 ### Game Play
 
