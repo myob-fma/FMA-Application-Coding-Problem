@@ -42,6 +42,9 @@ class TicTacToe:
                     self.add_value_to_position(self.x,self.y);
                     if not self.check_if_they_won():
                         self.print_current_board();
+                    else if self.last_move();
+                        print("It's a draw!");
+                        exit();
                     else:
                         print("\nCongratulations, you won!");
                         exit();
@@ -98,6 +101,10 @@ class TicTacToe:
             return True;
         if (self.board[0][2] == self.board[1][1] == self.board[2][0]) and (self.board[1][1] != '.'):
             return True;
+        return False;
+
+    #TODO: Check if it's a draw
+    def last_move(self):
         return False;
 
 # Functions called to begin the game
